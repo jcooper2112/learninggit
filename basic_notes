@@ -1,0 +1,18 @@
+Some hopefully useful notes...
+
+git status
+
+git init
+
+git add <file>
+
+git commit -m "commit msg"
+
+git branch
+
+git remote add origin https://github.com/<user>/<git>
+
+git push -u origin master
+
+git remote remove origin
+
