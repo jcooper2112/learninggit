@@ -5,14 +5,28 @@ git status
 git init
 
 git add <file>
+    - adds file to git to be tracked.
+    - needs to be done each time after a tracked change is desired.
 
 git commit -m "commit msg"
 
 git branch
+    - creates branch for changes without affecting master.
 
 git remote add origin https://github.com/<user>/<git>
+    - adds remote repo URL to local git so repos can be pushed/pulled.
 
 git push -u origin master
+    - pushes local repo to github (origin)
+    - 'origin' is basically a 'link' to the URL so doesn't need to be typed out.
 
 git remote remove origin
 
+git pull origin master.
+    - pulls copy from github and syncs local git
+
+git log
+    - shows the list of commits for branches.
+
+git checkout <branch>
+    -switch between branches
