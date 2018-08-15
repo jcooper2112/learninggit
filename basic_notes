@@ -10,8 +10,14 @@ git add <file>
 
 git commit -m "commit msg"
 
-git branch
+git branch <branchname>
     - creates branch for changes without affecting master.
+
+git branch
+    - lists branches
+
+git branch -d <branchname>
+    - deletes branch "<branchname>"
 
 git remote add origin https://github.com/<user>/<git>
     - adds remote repo URL to local git so repos can be pushed/pulled.
